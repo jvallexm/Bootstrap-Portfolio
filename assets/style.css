@@ -134,6 +134,9 @@ button{
 
 /* Portfolio Styles */
 
+.portfolio{
+  min-height: 900px;
+}
 .spacer{
   /* Spaces the middle row */
   margin-top: 45px;
