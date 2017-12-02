@@ -14,22 +14,15 @@ body{
 }
 #the-middle{
   padding: 30px;
-  width: 960px;
 }
-#the-middle::after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 .center{
 	text-align: center;
 }
 #content{
   padding: 30px;
-	width: 590px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
-  float: left;
 }
 .bland{
   text-decoration: none;
@@ -40,13 +33,10 @@ body{
 	margin-top: 10px;
 }
 #sidebar{
-  margin-left: 20px;
   padding: 20px;
-	width: 270px;
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
  	height: 180px;
-  float:right;
 }
 .bar{
 	min-height: 10px;
