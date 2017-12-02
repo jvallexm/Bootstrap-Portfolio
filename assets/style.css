@@ -24,6 +24,9 @@ body{
 	border: 1px solid #dddddd;
 	background-color: #ffffff;
 }
+.inside-pad{
+  padding: 0px 30px 10px 30px;
+}
 .bland{
   text-decoration: none;
 }
