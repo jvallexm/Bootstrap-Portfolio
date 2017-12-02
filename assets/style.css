@@ -6,8 +6,12 @@ body{
   /*Site Headings*/
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
+nav{
+  margin-bottom: 0px !important;
+}
 #main{
   background-image: url(../images/regal.png);
+  min-height: 800px;
 }
 #about{
 	margin-top: 25px;
@@ -100,6 +104,7 @@ body{
 }
 
 #quote{
+  font-size: 120%;
   margin-bottom: 20px;
 }
 
