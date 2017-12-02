@@ -1,102 +1,134 @@
-
+<!DOCTYPE html>
 <html>
-	<title>
-		Jennifer Valle | Contact
-	</title>
+  <title>
+    Jennifer Valle | Human Website
+  </title>
   <link rel="stylesheet" type="text/css" href="assets/reset.css"/>
-	<link rel="stylesheet" type="text/css" href="assets/style.css"/>
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="assets/style.css"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />
 
-		<body>
+  <body>
     
-    <div id="header" class="text-center container-fluid">
+
+    <!--Top-->
+    <header id="header" class="text-center container-fluid">
+          <div class="row">
+
+              <div class="col-md-6">
+                  <center>
+                  <div id="my-name" class="teal">
+                      <h2 class="from-top">Jennifer Valle</h2>
+                  </div>  
+                  </center>  
+              </div>
+
+              <nav class="col-md-6 regular">
+                <div class="bottom">
+                  <div class="row">
+
+                      <div class="col-sm-4"> About </div>
+
+                    <div class="col-sm-4"> <a href="portfolio.html" class="bland regular">Portfolio</a> </div>
+
+                    <div class="col-sm-4"> <a href="contact.html" class="bland regular">Contact</a> </div>
+
+                  </div>
+                </div>  
+              </nav>
+
+          </div>
+    </header>
+    
+    <!-- Middle -->
+
+    <div id="main">
+      <div id="the-middle" class="text-center container-fluid container contact">
       <div class="row">
 
-          <div class="col-md-6">
-              <center>
-                <div id="my-name" class="teal">
-                  <h2 class="from-top">Jennifer Valle</h2>
-                </div>  
-              </center>  
+          <!-- About Me --> 
+
+          <div class="col-md-8 inside-pad">
+
+              <section id="content" class="text-left">
+            
+                <h3 class="title teal-text gray-line">
+                  Contact
+                </h3>
+
+                <form id="about">
+
+                  <h5 class="regular">Name</h5>
+
+                  <input placeholder="John Smith"/>
+
+                  <h5 class="regular">Email</h5>
+
+                  <input placeholder="example@gmail.com"/>
+
+                  <h5 class="regular">Message</h5>  
+
+                  <textarea></textarea>
+
+                  <div class="padder"></div>
+
+                  <button class="teal">Submit</button>
+
+                </form>
+        
+              </section>
+
           </div>
 
-          <div class="col-md-6 regular">
-            	<div class="bottom">
-  	            <div class="row">
+      <!-- Connect With Me -->
+      
+          <div class="col-md-4 text-left inside-pad">
 
-    	              <div class="col-sm-4">
-    	                  <a href="index.html" class="bland regular">About</a>
-    	              </div>
-    	              <div class="col-sm-4">
-    	                  <a href="portfolio.html" class="bland regular">Portfolio</a>
-    	              </div>
-    	             <div class="col-sm-4">
-    	                  Contact
-    	              </div>
-                    
-  	            </div>
-              </div>  
-          </div>
+              <div id="sidebar">
 
-      </div>
-    </div>
-    
-    <div id="main">
-      <div id="the-middle" class="text-center container-fluid container">
-          <div id="content" class="text-left">
-            <h3 class="title teal-text gray-line">
-              Contact
-            </h3>
-            <form id="about">
-              <h5 class="regular">Name</h5>
-              <input placeholder="John Smith"/>
-           <h5 class="regular">Email</h5>
-           <input placeholder="example@gmail.com"/>
-           <h5 class="regular">Message</h5>  
-              <textarea></textarea>
-              <div class="padder"></div>
-              <button class="teal">Submit</button>
+                <h5 class="title teal-text gray-line">
+                  Connect With Me
+                </h5>
+                
+                <center>
 
-		        </form>
-          </div>
-          <div id="sidebar" class="text-left">
-            <h5 class="title teal-text gray-line">
-              Connect With Me
-            </h5>
-            <center>
-	            <a href="http://www.github.com/jvallexm"
-                 target="_blank">
+                  <a href="http://www.github.com/jvallexm"
+                     target="_blank">
 
-                <img src="images/github.png" 
-                   class="icon" 
-                   title="Fork me on Github"/>
-              </a>  
+                    <img src="images/github.png" 
+                       class="icon" 
+                       title="Fork me on Github"/>
+                  </a>  
 
-              <a href="https://www.linkedin.com/in/jennifer-valle-605292149/"
-                 target="_blank">
+                  <a href="https://www.linkedin.com/in/jennifer-valle-605292149/"
+                     target="_blank">
 
-                <img src="images/linkedin.png" 
-                   class="icon" 
-                   title="Connect on Linked In"/>
-              </a>
+                    <img src="images/linkedin.png" 
+                       class="icon" 
+                       title="Connect on Linked In"/>
+                  </a>
 
-              <a href=""
-                 target="_blank">
+                  <a href=""
+                     target="_blank">
 
-                <img src="images/stackoverflow.png" 
-                   class="icon" 
-                   title="Stack Overflow"/>
-              </a>
-	        </center>
+                    <img src="images/stackoverflow.png" 
+                       class="icon" 
+                       title="Stack Overflow"/>
+                  </a>
+
+              </center>
+
+          </div>    
+
           </div>
       </div>
     </div>
-	
-	<div class="teal bar"></div>
-	
-	<div id="footer">
-		Copyright 2017 Jennifer Valle
-	</div>
+    </div>
+  
+  <!-- Bottom -->
+  
+  <footer id="footer">
+    Copyright 2017 Jennifer Valle
+  </footer>
 
-	</body>
+  </body>
 </html>
