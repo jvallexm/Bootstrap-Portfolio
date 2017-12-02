@@ -139,7 +139,9 @@ button{
   margin-top: 45px;
   margin-bottom: 45px;
 }
-
+.rel{
+  max-width: 255px; 
+}
 .project{
   /*Each project*/
   height: 180px;
@@ -150,9 +152,9 @@ button{
 .obi{
   /* Strip over each project */
   position: absolute;
-  width: 250px;
+  width: 255px;
   padding-top: 16px;
   padding-bottom: 8px;
   z-index: 1;
-  margin-top: -65px;
+  margin-top: -75px;
 }
