@@ -143,21 +143,22 @@ button{
   margin-bottom: 45px;
 }
 .rel{
-  max-width: 255px; 
+  position: relative;
+  width: 100%; 
 }
 .project{
   /*Each project*/
-  height: 180px;
-  width: 255px;
+  height: 100%;
+  width: 100%;
   margin: 10px 0px 10px 0px;
 }
 
 .obi{
   /* Strip over each project */
   position: absolute;
-  width: 255px;
   padding-top: 16px;
   padding-bottom: 8px;
+  width: 100%;
   z-index: 1;
   margin-top: -75px;
 }
